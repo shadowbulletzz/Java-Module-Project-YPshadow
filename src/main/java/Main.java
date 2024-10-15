@@ -22,7 +22,7 @@ public class Main {
                         System.out.println("Неправильно указал скорость. Введи число от 1 до 250");
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("Неправилно написал. Нужнно указать чисо от 1 до 250");
+                    System.out.println("Неправильно написал. Нужно указать число от 1 до 250");
                 }
             } while (true);
 
